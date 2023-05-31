@@ -1,0 +1,22 @@
+{
+    "name": "Ban All Bot",
+    "logo": "",
+    "repository": "https://github.com/ItZxSTaR/BanAllMembersBot",
+    "env": {
+      "BOT_TOKEN": {
+            "description": "Your bot token",
+            "value": "",
+            "required": true
+        },
+        "SUDO": {
+            "description": "sudo ids here.",
+            "value": "5789819429",
+            "required": true
+        }
+    },
+  "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
